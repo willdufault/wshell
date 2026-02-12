@@ -1,7 +1,7 @@
-- support wrapping on small width terminals
-- add pipes
-- sub env vars
 - support quotes, newline to continue if open quote
+- add pipes
+- add semicolon for multiple commands
+- sub env vars
 - cat: error edge cases (encoding, illegal chars, etc.)
 - tab completion
 - live red dollar sign if illegal command
@@ -9,4 +9,5 @@
 - exhaustive error handling
 - test cases
 - handle external commands, crawl path
+- support wrapping on small width terminals
 - make gui, exe

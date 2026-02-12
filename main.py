@@ -34,6 +34,7 @@ def prompt_command(cwd: str) -> list[str]:
 def main() -> None:
     print_banner()
     cwd = os.getcwd()
+
     while True:
         words = prompt_command(cwd)
         if len(words) == 0:
