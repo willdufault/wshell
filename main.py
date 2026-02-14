@@ -4,6 +4,7 @@ import rich
 
 from commands.cat import cat
 from commands.cd import cd
+from commands.clear import clear
 from commands.echo import echo
 from commands.history import history
 from commands.ls import ls
@@ -68,6 +69,8 @@ def main() -> None:
             case "history":
                 # Don't include history command
                 history(command_history[:-1])
+            case "clear":
+                clear()
             case "rm":
                 print("TODO")
             case "rmdir":
