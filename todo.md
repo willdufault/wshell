@@ -11,3 +11,5 @@
 - handle external commands, crawl path
 - support wrapping on small width terminals
 - make gui, exe
+- show git branch
+- show venv
